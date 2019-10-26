@@ -1,3 +1,3 @@
-const saudacao = 'ola blz'
+const saudacao = 'ola mundo'
 
 console.log(saudacao)

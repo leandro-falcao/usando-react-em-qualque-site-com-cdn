@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="./index-react-cdn.css">
+
+     <!-- links para ter o react e react jsx com babel -->
+    <script src="https://unpkg.com/react@16/umd/react.production.min.js"></script>
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
+     <!-- babel pra ter o jsx do react -->
+     <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>reactJS em qualquer em pequenos componentes </title>
+
+    <style>
+      
+
+    </style>
+
+  </head>
+
+  <body>
+    

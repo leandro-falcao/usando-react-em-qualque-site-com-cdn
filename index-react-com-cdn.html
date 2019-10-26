@@ -25,7 +25,7 @@
   <body>
     
     <div id="cotainer">
-      <span id="clock" class="clock"></span>
+      <span id="clock" class="clock">clock</span>
         
       <header id="cabecalho">
         cabecalho
@@ -33,14 +33,38 @@
       </header>
       
       <section id="corpo-site">
-
+        conteudo
       </section>
 
       <footer id="rodape">
-
+        rodape
       </footer>
-end
+
     </div>  
+
+    
+    <script type="text/babel">
+    
+        // code JSX
+
+      const conteudo = (
+        <div>
+          <p claassName="relogio">{ new Date().toLocaleTimeString() }</p>
+
+        </div> 
+      )      
+      
+      function relogio () {
+        
+        ReactDOM.render( 
+          <span>teste do primeiro</span>, 
+          document.getElementById('cabecalho') )
+      }
+      
+      setTimeout( relogio, 3001);
+      
+    </script>
+
 
 
     <script type="text/babel">

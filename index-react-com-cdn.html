@@ -25,8 +25,10 @@
   <body>
     
     <div id="cotainer">
+      <span id="clock" class="clock"></span>
         
       <header id="cabecalho">
+        cabecalho
         
       </header>
       
@@ -37,28 +39,27 @@
       <footer id="rodape">
 
       </footer>
-
+end
     </div>  
 
 
-
     <script type="text/babel">
-       // code JSX
-      const conteudo = (
-        <div>
-          <h3> </h3>
-          <p> o horario o seguinte</p>
-        </div> 
-      )      
-      
-    </script>
-  
-     <!-- script comum -->
+
+      ReactDOM.render(
+        <h1>ola mundo!</h1>,
+        document.getElementById('clock')
+      );
+
+      </script>
+
+
+
+      <!-- script comum -->
     <script>
-      
+    
     </script>
 
-  <script src="./index-react-cdn.js"></script>
+    <script src="./index-react-cdn.js"></script>
 
   </body>
 

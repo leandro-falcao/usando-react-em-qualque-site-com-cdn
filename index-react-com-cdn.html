@@ -46,22 +46,24 @@
     <script type="text/babel">
     
         // code JSX
-
-      const conteudo = (
-        <div>
-          <p claassName="relogio">{ new Date().toLocaleTimeString() }</p>
-
-        </div> 
-      )      
-      
-      function relogio () {
+        function relogio () {
         
+          const conteudo = (
+            <div>
+              <p claassName="relogio">{ new Date().toLocaleTimeString() }</p>
+            </div> 
+        )         
+
         ReactDOM.render( 
-          <span>teste do primeiro</span>, 
-          document.getElementById('cabecalho') )
+          <div>{conteudo}</div>, 
+          document.getElementById('clock') 
+        )
+     
       }
+
+      setInterval(relogio, 1190)
+
       
-      setTimeout( relogio, 3001);
       
     </script>
 
@@ -70,8 +72,10 @@
     <script type="text/babel">
 
       ReactDOM.render(
-        <h1>ola mundo!</h1>,
-        document.getElementById('clock')
+
+        <h1>cabecalho</h1>,
+        document.getElementById('cabecalho')
+
       );
 
       </script>
